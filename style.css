@@ -180,6 +180,23 @@ h4 {
 
 }
 
+@media screen and (min-width: 1200px ){
+
+.faq-section {
+    width: 58.5%;
+    height: 23.813rem;
+    background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -17% 38%, -37rem 63%;
+}
+
+.box {
+    display: block;
+    margin-left: -25%;
+    margin-top: 8%;
+}
+
+}
 
 @media screen and (min-width: 1400px ){
 
