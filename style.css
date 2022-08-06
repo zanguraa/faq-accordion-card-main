@@ -20,6 +20,22 @@ body {
     align-items: center;
 }
 
+.accord {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+  }
+
 .h1-container {
     text-align: center;
 }
@@ -42,13 +58,31 @@ h4 {
     color: #4B4C5F;
 }
 
-span {
+.hide-span {
+    display: none;
     font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #787887;
+    transition: all 0.3s ease-in-out;
+}
+
+.show-span {
+    display: block;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #787887;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+h4:hover {
+    color: #F47B56;
 }
 
 .woman-img {
@@ -79,9 +113,9 @@ span {
     text-align: left;
 }
 
-.text-container span {
+/* .text-container span {
     display: none;
-}
+} */
 
 .arrow-container {
     display: flex;
@@ -92,6 +126,12 @@ span {
 .arrow-container img {
     width: 0.5rem;
     height: 0.25rem;
+}
+
+.arrow-rotate-img {
+    width: 0.5rem;
+    height: 0.25rem;
+    transform: rotate(180deg);
 }
 
 #span-2 {
