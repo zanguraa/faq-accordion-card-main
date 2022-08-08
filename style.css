@@ -275,18 +275,18 @@ h4 {
     }
 
     .faq-section {
-        width: 58.5%;
-        height: 25.813rem;
-        background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
-        background-repeat: no-repeat, no-repeat;
-        background-position: -14% 37%, -35rem 70%;
-        padding: 5% 7.5%;
-        background-color: #FFFFFF;
-        box-shadow: 0px 50px 50px -20px rgb(53 18 122 / 50%);
-        border-radius: 23px;
-        justify-content: space-between;
-        flex-direction: row;
-    }
+    max-width: 52rem;
+    height: 25.813rem;
+    background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -5rem center, -35rem 70%;
+    padding: 5% 7.5%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgb(53 18 122 / 50%);
+    border-radius: 23px;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
     .arrow-container {
         border-bottom: 1px solid #E8E8EA;
