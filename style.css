@@ -23,6 +23,7 @@ body {
 .accord {
     cursor: pointer;
     width: 100%;
+    color: #1E1F36;
     text-align: left;
     border: none;
     outline: none;
@@ -34,7 +35,24 @@ body {
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
+    
+  }
+
+  .h4-bold {
+    cursor: pointer;
+    width: 100%;
     color: #1E1F36;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
   }
 
   .panel {
@@ -57,14 +75,14 @@ h1 {
     color: #1E1F36;
 }
 
-h4 {
+/* h4 {
     font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #1E1F36;
-}
+} */
 
 
 .hide-span {

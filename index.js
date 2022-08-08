@@ -6,6 +6,7 @@ const trueSpan = document.getElementById('span-2');
     
 for(let i = 0; i < acc.length; i++) {
     acc[i].addEventListener('click', ()=> { 
+    acc[i].classList.toggle('h4-bold');
     acc[i].parentElement.parentElement.lastElementChild.classList.toggle('show-span');
     acc[i].nextElementSibling.classList.toggle('arrow-rotate-img');
     });
